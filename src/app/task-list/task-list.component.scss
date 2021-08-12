@@ -1,0 +1,28 @@
+.storage-list{
+ 
+   margin-left: 65px;
+}
+.recentlyOpenTask{
+    width: 30%;
+    display: inline-block;
+    margin-right: 10px;
+    box-shadow: 2px 0px 4px 3px grey;
+    padding: 10px;
+}
+.taskInProgress{
+    width: 30%;
+    display: inline-block;
+    margin-right: 10px;
+    box-shadow: 2px 0px 4px 3px grey;
+    padding: 10px;
+}
+.taskDone{
+    width:30%;
+    display: inline-block;
+    box-shadow: 2px 0px 4px 3px grey;
+    padding: 10px;
+}
+.task-navbar{
+
+    background-color: aqua;
+}

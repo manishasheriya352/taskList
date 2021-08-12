@@ -1,0 +1,27 @@
+<div class="storage-list">
+    <div class="recentlyOpenTask"> 
+           <div>
+               <div class="task-navbar">
+                <p>Open Tasks</p>
+                </div>
+                <app-task-list-viwer [taskList]="openTask"></app-task-list-viwer>
+           </div>
+    </div>
+    <div class="taskInProgress">
+        <div>
+            <div class="task-navbar">
+            <p>In progress Tasks</p>
+        </div>
+           <app-task-list-viwer [taskList]="inProgressTask"></app-task-list-viwer>
+           </div>
+
+    </div>
+    <div class="taskDone">
+        <div>
+            <div class="task-navbar">
+            <p>Finieshed task</p>
+        </div>
+            <app-task-list-viwer [taskList]="doneTask"></app-task-list-viwer>
+    </div>
+    </div>
+</div>

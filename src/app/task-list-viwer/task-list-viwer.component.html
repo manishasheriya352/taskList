@@ -1,0 +1,13 @@
+<div>
+    <div *ngFor="let item of taskList">
+        <div>
+            <div class="title-heading">
+            <span>{{item.title}}</span>
+        </div>
+            <a class="float-right" [routerLink]="['/createTask', item.title]" routerLinkActive="router-link-active" >Edit Task</a>
+        </div>
+    </div>
+    <div *ngIf="!taskList.length">
+        No Task Available in this section
+    </div>
+</div>

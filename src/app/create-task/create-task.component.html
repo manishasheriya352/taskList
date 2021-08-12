@@ -1,0 +1,24 @@
+
+<div class="main-form">
+    <form #heroForm='ngForm'>
+        <div class="row">
+            <label class="col-sm-2"> Title:</label>
+            <input class="form-control" type="text" ngModel name="title">
+        </div>
+        <div class="row">
+            <label class="col-sm-2"> Description:</label>
+            <input class="form-control" type="text" ngModel name="description">
+        </div>
+        <div class="row" >
+            <label class="col-sm-2"> Task Status:</label>
+           <select class="form-control" type="text" ngModel name="status">  
+               <option value="open">Open</option>
+               <option value="inprogress">In-Progress</option>
+               <option value="completed">Completed</option>
+           </select>
+        </div>
+      <div class="btn-submit">
+        <button class="btn btn-primary" (click)="onsubmit()" type="button">Submit</button>
+    </div>
+    </form>
+</div>
